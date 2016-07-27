@@ -1,1 +1,184 @@
+/***********************************
+Author: Sriram BV 
+Assignment: Module 2
+CSS References: Lecture 19,22
+***********************************/
 
+
+/********** Base styles **********/
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 175%;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.sectionhead {
+    position: relative;
+    margin: auto;
+    float: right;
+}
+
+#item1 {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+#item2 {
+    background-color: darkolivegreen;
+    color: white;
+}
+
+#item3 {
+    background-color: darkslategray;
+    color: white;
+}
+
+.sectiontext {
+    background-color: gray;
+    border: 3px solid black;
+    position: relative;
+    margin-left: auto;
+    margin-right: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    text-align: justify;
+    min-height: inherit;
+}
+
+.sectiontext:hover {
+    color: white;
+}
+
+
+/* Simple Responsive Framework. */
+
+.row {
+    width: 100%;
+    height: 170px;
+    position: absolute;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/********** Desktop Layout **********/
+
+@media (min-width: 992px) {
+    .col-lg-1,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12 {
+        float: left;
+    }
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 74.99%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+
+
+/********** Tablet Layout **********/
+
+@media (min-width: 732px) and (max-width: 991px) {
+    .col-md-1,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12 {
+        float: left;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 74.99%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
