@@ -9,51 +9,97 @@ CSS References: Lecture 19,22
 
 * {
     box-sizing: border-box;
+}
+
+body {
     font-family: sans-serif;
+    font: Cambria;
 }
 
 h1 {
-    margin-bottom: 15px;
-    text-align: center;
     font-size: 175%;
     margin: 0;
+    margin-bottom: 15px;
     margin-top: 25px;
     margin-bottom: 25px;
+    text-align: center;
+}
+
+h1:hover {
+    font-family: sans-serif;
+    font: Verdana;
+    font-size: 250%;
+}
+
+h2 {
+    border: 3px solid black;
+    display: inline-block;
+    float: right;
+    font-size: 125%;
+    height: auto;
+    margin-bottom: 0;
+    margin-top: -13px;
+    margin-right: 0;
+    margin-left: auto;
+    position: absolute;
+    padding: 5px;
+    right: -1px;
+    text-align: center;
+    top: 12px;
+    width: 100px;
 }
 
 .sectionhead {
-    position: relative;
-    margin: auto;
+    background-color: gray;
+    border: 3px solid black;
+    box-sizing: border-box;
     float: right;
+    height: 150px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    padding-top: 25px;
+    position: relative;
+    max-height: 300px;
+    min-height: 250px;
+    min-width: 250px;
+    overflow: hidden;
+    object-fit: contain;
+    text-align: justify;
 }
 
 #item1 {
     background-color: darkgoldenrod;
     color: white;
+    font: Verdana;
 }
 
 #item2 {
     background-color: darkolivegreen;
     color: white;
+    font: Verdana;
 }
 
 #item3 {
     background-color: darkslategray;
     color: white;
+    font: Verdana;
 }
 
-.sectiontext {
-    background-color: gray;
-    border: 3px solid black;
-    position: relative;
-    margin-left: auto;
-    margin-right: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    padding-top: 50px;
-    text-align: justify;
-    min-height: inherit;
+#item1:hover {
+    background-color: white;
+    color: black;
+}
+
+#item2:hover {
+    background-color: white;
+    color: black;
+}
+
+#item3:hover {
+    background-color: white;
+    color: black;
 }
 
 .sectiontext:hover {
